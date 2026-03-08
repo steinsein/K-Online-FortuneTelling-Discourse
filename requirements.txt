@@ -1,0 +1,26 @@
+# K-Online-FortuneTelling-Discourse
+# Python 3.9+
+
+# === 데이터 처리 ===
+pandas>=1.5.0
+numpy>=1.23.0
+
+# === 웹 스크래핑 (01_collection) ===
+selenium>=4.0.0
+webdriver-manager>=3.8.0
+beautifulsoup4>=4.11.0
+requests>=2.28.0
+python-dateutil>=2.8.0
+tqdm>=4.64.0
+
+# === 텍스트 분석 (03_filtering, 04_analysis) ===
+scikit-learn>=1.1.0
+
+# === 감정 분석 (04_analysis) ===
+transformers>=4.25.0
+torch>=1.13.0
+
+# === 시각화 (05_visualization) ===
+matplotlib>=3.6.0
+seaborn>=0.12.0
+scipy>=1.9.0
