@@ -19,7 +19,7 @@ from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 import pandas as pd
-from config import CAFES
+from naver_cafe_config import CAFES
 
 
 class NaverCafeScraper:
