@@ -93,13 +93,3 @@ pip install -r requirements.txt
 
 이 프로젝트는 [MIT License](LICENSE)를 따릅니다. 학술 목적으로 활용 시 원 논문을 인용해 주시기 바랍니다.
 
-## 인용
-
-```bibtex
-@misc{k-online-fortunetelling-discourse,
-  title={한국 온라인 운세 서비스 담론의 플랫폼별 텍스트 분석},
-  author={},
-  year={2025},
-  url={https://github.com/YOUR_USERNAME/K-Online-FortuneTelling-Discourse}
-}
-```
