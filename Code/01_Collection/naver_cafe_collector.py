@@ -421,8 +421,8 @@ def main():
     print("=" * 60)
 
     if not CAFES:
-        print("\n오류: config.py에 카페가 설정되지 않았습니다.")
-        print("config.py 파일을 열어 CAFES 리스트에 카페를 추가해주세요.")
+        print("\n오류: naver_cafe_config.py에 카페가 설정되지 않았습니다.")
+        print("naver_cafe_config.py 파일을 열어 CAFES 리스트에 카페를 추가해주세요.")
         return
 
     # 스크래이퍼 실행
