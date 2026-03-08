@@ -1,0 +1,44 @@
+# === 데이터 파일 (대용량) ===
+# 전체 데이터셋은 리포지토리에 포함하지 않음
+# 샘플 데이터(raw_sample_*, cleaned_sample_*, filtered_sample_*)는 포함
+data/1.raw/*.csv
+data/2.cleaned/*.csv
+data/filtered/*.csv
+!data/1.raw/raw_sample_*.csv
+!data/2.cleaned/cleaned_sample_*.csv
+!data/filtered/filtered_sample_*.csv
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# === 가상환경 ===
+venv/
+env/
+.env/
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === Jupyter ===
+.ipynb_checkpoints/
+
+# === 시각화 출력 (figures는 포함) ===
+# 05_visualization/figures/ 는 포함
+
+# === 임시 파일 ===
+*.tmp
+*.log
