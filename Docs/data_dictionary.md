@@ -129,7 +129,7 @@
 
 | 단계 | 파일 | 대략적 건수 |
 |------|------|------------|
-| 원본 수집 | `data/1.raw/raw_sample_*.csv` | ~700,000건 (전체) |
+| 원본 수집 | `data/1.raw/raw_sample_*.csv` | ~1,500,000건 (전체) |
 | 정제 | `data/2.cleaned/cleaned_sample_1.csv` | ~700,000건 |
 | 분류 적용 | `data/filtered/filtered_sample_2.csv` | ~700,000건 |
 | 최종 후기 | `data/filtered/filtered_sample_3.csv` | ~50,000건 |
